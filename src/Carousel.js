@@ -21,7 +21,7 @@ function Carousel(props) {
       <h1>{props.title}</h1>
       <div className="Carousel-main">
         <i
-          className={`fas fa-chevron-circle-left fa-2x ${leftIconHidden}`}
+          className={`fas fa-chevron-circle-left fa-2x ${leftIconHidden}`} 
           onClick={goBack}
           data-testid="left-arrow"
         />
